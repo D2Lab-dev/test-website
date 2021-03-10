@@ -1,8 +1,51 @@
+/* Main tags */
+h1 {
+  margin: 2rem 0 3rem 0;
+}
+
+/* Specific elements classes */
 .logo-img {
-  width: 2rem;
+  width: 3rem;
   margin-right: 1rem;
 }
 
-h1 {
-  margin: 2rem 0 3rem 0;
+.progress {
+  height: 2rem;
+}
+
+.progress-bar {
+  font-size: 1rem;
+  width: 30%;
+}
+
+.thingspeak-chart {
+  width: 450px;
+  height: 260px;
+  border: none;
+}
+
+/* Generic styles */
+.align-rigth {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.big-margin {
+  margin: 2rem;
+}
+
+.big-margin-tb {
+  margin: 2rem 0;
+}
+
+.status-icon {
+  /* margin: 2rem; */
+  width: 2rem;
+}
+
+.big-padding {
+  padding: 3rem;
 }
