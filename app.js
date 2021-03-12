@@ -1,10 +1,11 @@
 function getResult(peak, threshold) {
   let result = "";
-  if (peak > threshold) {
+  if (Number(peak) > Number(threshold)) {
     result = "Positivo";
   } else {
     result = "Negativo";
   }
+  return result;
 }
 
 function firtsSyncThingspeak() {
