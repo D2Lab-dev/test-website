@@ -71,11 +71,11 @@
           <div class="col-sm-3">Valore di soglia</div>
           <div class="col-sm-5">
             <!-- Threshold value -->
-            <input type="number" class="form-control" id="IPeakThInput" placeholder="1e-5">
+            <input type="number" class="form-control threshold-value" id="IPeakThInput" value="0">
           </div>
           <div class="col-sm-4 d-grid">
             <!-- Threshold confirm button -->
-            <button type="button" class="btn btn-primary">Conferma</button>
+            <button type="button" class="btn btn-primary confirm-threshold" disabled>Conferma</button>
           </div>
         </div>
 
@@ -104,14 +104,14 @@
         <!-- Patient -->
         <div class="row align-items-center">
           <div class="col-lg-5 ">
-            <div class="container align-center">Paziente:</div>
+            <div class="container align-center">Ultimo paziente:</div>
             <div class="container align-center codice-fiscale big-margin-tb">
-              <h2>AAABBB12C34D567E</h2>
+              <h2 class="display-codice-fiscale">-</h2>
             </div>
             <!-- Refresh button -->
-            <div class="container align-center">
-              <button type="button" class="btn btn-lg btn-primary">Visualizza risultato</button>
-            </div>
+            <!-- <div class="container align-center">
+              <button type="button" class="btn btn-lg btn-primary result-button">Visualizza risultato</button>
+            </div> -->
           </div>
           <div class="col-lg-7 align-center big-margin-tb">
             <!-- Test result image -->
@@ -133,23 +133,23 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>AAAAAAAAAAAAAAAA</td>
-                <td>1e-5</td>
-                <td>8e-4</td>
-                <td>Negativo</td>
+              <tr class="element2">
+                <td class="codice-fiscale">-</td>
+                <td class="I-peak">-</td>
+                <td class="I-threshold">-</td>
+                <td class="result">-</td>
               </tr>
-              <tr>
-                <td>BBBBBBBBBBBBBBBB</td>
-                <td>1.3e-5</td>
-                <td>8e-4</td>
-                <td>Negativo</td>
+              <tr class="element1">
+                <td class="codice-fiscale">-</td>
+                <td class="I-peak">-</td>
+                <td class="I-threshold">-</td>
+                <td class="result">-</td>
               </tr>
-              <tr>
-                <td>CCCCCCCCCCCCCCCC</td>
-                <td>5.9e-3</td>
-                <td>8e-4</td>
-                <td>Positivo</td>
+              <tr class="element0">
+                <td class="codice-fiscale">-</td>
+                <td class="I-peak">-</td>
+                <td class="I-threshold">-</td>
+                <td class="result">-</td>
               </tr>
             </tbody>
           </table>
